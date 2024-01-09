@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import TIRCard from "./TIRCard";
 
 const TIR = () => {
@@ -22,9 +23,9 @@ const TIR = () => {
             Berilmagan
           </option>
         </select>
-        <a href="">
+        <Link to="/TIRQoshish">
           <button>+</button>
-        </a>
+        </Link>
       </div>
       <div className="clear"></div>
 

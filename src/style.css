@@ -52,6 +52,12 @@
   font-weight: 400;
   line-height: normal;
 }
+.navbar ul li a:focus,
+.footer ul li a:focus
+{
+  border-bottom: 1px solid var(--blue);
+  transition: all 1s;
+}
 .footer {
   width: 100%;
   padding: 23px 80px;
@@ -345,4 +351,120 @@
   font-weight: 600;
   line-height: 150%; /* 30px */
   letter-spacing: -0.4px;    
+}
+.moshinaqoshish 
+{
+  width: 100%;
+  padding: 90px 85px;
+  background-color: #F5F6F8;
+}
+.moshinaqoshish form
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.inputfile {
+	width: 600px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+  border-radius: 20px;
+}
+.inputfile + label {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 50px 100px;
+  color: white;
+  background-color: var(--blue);
+  display: inline-block;
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.moshinaqoshish form input
+{
+  width: 470px;
+  height: 65px;
+  background-color: #54A6FF;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 37.5px */
+  letter-spacing: -0.5px;  
+  padding: 0 20px;
+}
+.moshinaqoshish form input::placeholder
+{
+  color: var(--white);
+}
+.tirqoshish
+{
+  width: 100%;
+  padding: 90px 85px;
+  background-color: #F5F6F8;
+  display: flex;
+  justify-content: center;
+}
+.tirqoshish__card
+{
+  width: 888px;
+  background-color: var(--blue);
+  border-radius: 100px 0;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.savol
+{
+  display: flex;
+  gap: 20px;
+}
+.savol label
+{
+  color: #FFF;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 45px */
+  letter-spacing: -0.6px;  
+}
+.savol input , .savol select
+{
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  background: #44C1F6;
+  border: none;
+  outline: none;
+  outline: none;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 37.5px */
+  letter-spacing: -0.5px;  
+  padding: 0 20px;
+}
+.tirqoshish__card button
+{
+  width: 400px;
+  height: 65px;
+  border-radius: 20px;
+  border: none;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #72caf0;
+}
+.tirqoshish__card button:hover
+{
+  background: #44C1F6;
 }

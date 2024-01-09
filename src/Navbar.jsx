@@ -5,6 +5,9 @@ import Moshinalar from "./Moshinalar";
 import TIR from "./TIR";
 import Dazvol from "./Dazvol";
 import Eror from "./Eror";
+import MoshinaQoshish from "./MoshinaQoshish";
+import TIRQoshish from "./TIRQoshish";
+import DazvolQoshish from "./DazvolQoshish";
 
 const Navbar = () => {
   return (
@@ -34,6 +37,9 @@ const Navbar = () => {
         <Route path="/Moshinalar" element={<Moshinalar />} />
         <Route path="/TIR" element={<TIR />} />
         <Route path="/Dazvol" element={<Dazvol />} />
+        <Route path="/MoshinaQoshish" element={<MoshinaQoshish />} />
+        <Route path="/TIRQoshish" element={<TIRQoshish />} />
+        <Route path="/DazvolQoshish" element={<DazvolQoshish />} />
         <Route path="*" element={<Eror />} />
       </Routes>
       <div className="footer">

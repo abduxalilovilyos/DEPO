@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import DazvolCArd from "./DazvolCArd";
 
 const Dazvol = () => {
@@ -42,9 +43,9 @@ const Dazvol = () => {
             EUR
           </option>
         </select>
-        <a href="">
+        <Link to="/DazvolQoshish">
           <button>+</button>
-        </a>
+        </Link>
       </div>
       <div className="clear"></div>
 

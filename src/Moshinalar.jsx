@@ -1,8 +1,15 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import MoshinaQoshish from "./MoshinaQoshish";
 import MoshinaCard from "./MoshinaCard";
 
 const Moshinalar = () => {
+
+  // const ishla =()=>{
+  //   window.location={MoshinaQoshish};
+  // }
+
+
   return (
     <div className="moshinalar">
       <div className="moshinalar__header">
@@ -14,7 +21,9 @@ const Moshinalar = () => {
           <option>Mercedes Bens</option>
         </select>
         {/* manashu yerdagi buttonni bosganda yangi sahifaga o'tish kerak */}
+        <Link to="/MoshinaQoshish">
         <button>+</button>
+        </Link>
       </div>
       <div className="clear"></div>
 
