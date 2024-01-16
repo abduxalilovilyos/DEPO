@@ -37,6 +37,7 @@ const TIR = () => {
           tir_berilishikksana={"12.12.2025"}
           tir_holati={"Aktiv"}
           tir_holatihaydovchi={"Berilgan"}
+          tir_holatihaydovchidan={"Qaytmagan"}
           tir_berilganmoshina={"60 009 BAA"}
         />
         <TIRCard

@@ -59,6 +59,7 @@ const Dazvol = () => {
           dazvol_holati={"Noaktiv"}
           dazvol_olingansana={"12.12.2023"}
           dazvol_holatihaydovchi={"Berilgan"}
+          dazvol_holatihaydovchidan={"Qaytmagan"}
         />
         <DazvolCArd
           dazvol_raqam={"AA 12343"}

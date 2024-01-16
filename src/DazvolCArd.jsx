@@ -1,7 +1,7 @@
 import React from 'react'
 
 const DazvolCArd = ({dazvol_raqam,dazvol_olingansana,dazvol_berilishikksana,
-    dazvol_berilgansana,dazvol_holati,dazvol_berilganmoshina, dazvol_davlat, dazvol_holatihaydovchi}) => {
+    dazvol_berilgansana,dazvol_holati,dazvol_berilganmoshina, dazvol_davlat, dazvol_holatihaydovchi,dazvol_holatihaydovchidan}) => {
   return (
     <div className="doc__cardtir">
       <div className="doc__texttir">
@@ -27,6 +27,10 @@ const DazvolCArd = ({dazvol_raqam,dazvol_olingansana,dazvol_berilishikksana,
       <div className="doc__texttir">
         <h3>Haydovchiga:</h3>
         <h3>{dazvol_holatihaydovchi}</h3>
+      </div>
+      <div className="doc__texttir">
+        <h3>Haydovchidan:</h3>
+        <h3>{dazvol_holatihaydovchidan}</h3>
       </div>
       <div className="doc__texttir">
         <h3>Davlar:</h3>

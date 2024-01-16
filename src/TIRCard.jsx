@@ -1,7 +1,7 @@
 import React from "react";
 
 const TIRCard = ({tir_raqam,tir_olingansana,tir_berilishikksana,
-tir_berilgansana,tir_holati,tir_berilganmoshina, tir_holatihaydovchi}) => {
+tir_berilgansana,tir_holati,tir_berilganmoshina, tir_holatihaydovchi, tir_holatihaydovchidan}) => {
   return (
     <div className="doc__cardtir">
       <div className="doc__texttir">
@@ -27,6 +27,10 @@ tir_berilgansana,tir_holati,tir_berilganmoshina, tir_holatihaydovchi}) => {
       <div className="doc__texttir">
         <h3>Haydovchiga:</h3>
         <h3>{tir_holatihaydovchi}</h3>
+      </div>
+      <div className="doc__texttir">
+        <h3>Haydovchidan:</h3>
+        <h3>{tir_holatihaydovchidan}</h3>
       </div>
       <div className="doc__texttir">
         <h3>Berilgan moshina:</h3>

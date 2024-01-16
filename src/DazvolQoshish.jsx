@@ -28,10 +28,24 @@ const DazvolQoshish = () => {
                 </select>
             </div>
             <div className="savol">
+                <label>Davlat</label>
+                <select name="" id="">
+                    <option value="KZ" key="">KZ</option>
+                    <option value="RUS" key="">RUS</option>
+                </select>
+            </div>
+            <div className="savol">
                 <label>Haydovchiga</label>
                 <select name="" id="">
                     <option value="Berilmagan" key="">Berilmagan</option>
                     <option value="Berilgan" key="">Berilgan</option>
+                </select>
+            </div>
+            <div className="savol">
+                <label>Haydovchidan</label>
+                <select name="" id="">
+                    <option  key="">Qaytmagan</option>
+                    <option  key="">Qaytgan</option>
                 </select>
             </div>
             <div className="savol">

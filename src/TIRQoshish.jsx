@@ -35,6 +35,13 @@ const TIRQoshish = () => {
                 </select>
             </div>
             <div className="savol">
+                <label>Haydovchidan</label>
+                <select name="" id="">
+                    <option value="Qaytmagan" key="">Qaytmagan</option>
+                    <option value="Qaytgan" key="">Qaytgan</option>
+                </select>
+            </div>
+            <div className="savol">
                 <label>Berilgan haydovchi:</label>
                 <input type="text" />
             </div>
