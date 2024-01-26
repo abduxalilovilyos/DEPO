@@ -53,8 +53,7 @@
   line-height: normal;
 }
 .navbar ul li a:focus,
-.footer ul li a:focus
-{
+.footer ul li a:focus {
   border-bottom: 1px solid var(--blue);
   transition: all 1s;
 }
@@ -75,65 +74,63 @@
   line-height: 150%; /* 24px */
   letter-spacing: -0.32px;
 }
-.boshsahifa
-{
+.boshsahifa {
   width: 100%;
   padding: 90px 85px;
   display: flex;
   justify-content: space-between;
-  background-color: #F5F6F8;
+  background-color: #f5f6f8;
 }
-.tircard , .dazvolcard
-{
+.tircard,
+.dazvolcard {
   width: 45%;
   background-color: var(--blue);
   padding: 75px 60px;
   border-radius: 100px 0;
 }
-.textelement
-{
+.textelement {
   display: flex;
   gap: 10px;
   color: var(--white);
   margin-bottom: 10px;
 }
-.textelement h1 , .dazvol__header h1
-{
-  color: #FFF;
+.textelement h1,
+.dazvol__header h1 {
+  color: #fff;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;  
+  line-height: normal;
 }
-.dazvol__header
-{
+.dazvol__header {
   display: flex;
   gap: 100px;
   margin-bottom: 10px;
 }
-.dazvol__header select
-{
+.dazvol__header select {
   padding: 5px 9px;
   border-radius: 12px;
   font-size: 18px;
 }
-.moshinalar , .tir
-{
+.moshinalar {
   width: 100%;
   padding: 90px 85px;
-  background-color: #F5F6F8;
+  background-color: #f5f6f8;
 }
-.moshinalar__header 
-{
+.tir {
+  width: 100%;
+  background-color: #f5f6f8;
+  padding: 0 35px;
+}
+.moshinalar__header {
   display: flex;
   gap: 50px;
   align-items: center;
   margin-bottom: 100px;
 }
-.moshinalar__header input
-{
+.moshinalar__header input {
   padding: 17px 30px;
-  background-color: #85A8F8;
+  background-color: #85a8f8;
   border: none;
   border-radius: 25px;
   width: 600px;
@@ -142,29 +139,26 @@
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 37.5px */
-  letter-spacing: -0.5px;  
+  letter-spacing: -0.5px;
   outline: none;
 }
-.moshinalar__header input::placeholder
-{
+.moshinalar__header input::placeholder {
   color: var(--white);
 }
-.moshinalar__header select
-{
-  background-color: #54A6FF;
+.moshinalar__header select {
+  background-color: #54a6ff;
   border-radius: 25px;
   color: var(--white);
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 37.5px */
-  letter-spacing: -0.5px;  
+  letter-spacing: -0.5px;
   outline: none;
   border: none;
-  padding: 8px 12px; 
+  padding: 8px 12px;
 }
-.moshinalar__header a button
-{
+.moshinalar__header a button {
   width: 51px;
   height: 55px;
   background-color: var(--blue);
@@ -174,100 +168,73 @@
   border: none;
   border-radius: 10px;
 }
-.clear
-{
+.clear {
   clear: both;
 }
-.moshinalar__body
-{
+.moshinalar__body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.moshinalar__card
-{
+.moshinalar__card {
   background-color: var(--blue);
   width: 49%;
   padding: 25px;
   border-radius: 30px;
   margin-bottom: 50px;
 }
-.moshina__header img
-{
+.moshina__header img {
   width: 220px;
 }
-.moshina__header
-{
+.moshina__header {
   display: flex;
   gap: 20px;
 }
-.header__text
-{
+.header__text {
   display: flex;
   gap: 3px;
   margin-bottom: px;
 }
-.header__text h3
-{
-  color: #00FFE0;
+.header__text h3 {
+  color: #00ffe0;
   font-size: 18px;
   font-style: normal;
-  font-weight: 500;  
+  font-weight: 500;
 }
-.moshina__text h1
-{
-  color: #F6F7F9;
+.moshina__text h1 {
+  color: #f6f7f9;
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 37.5px */
-  letter-spacing: -0.5px;  
+  letter-spacing: -0.5px;
 }
-.moshina__doc
-{
+.moshina__doc {
   width: 45%;
   background-color: var(--white);
   margin-top: 18px;
   padding: 20px;
   border-radius: 20px;
 }
-.doc__card
-{
-  display: flex;
-  gap: 10px;
-  margin-bottom: 7px;
-}
-.doc__card h4 , .doc__card1 h4
-{
-  color: #39F;
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%; /* 37.5px */
-  letter-spacing: -0.5px;  
-}
-.doc__contener
-{
+.doc__contener {
   display: flex;
   justify-content: space-between;
 }
-.tir__contener
-{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
-  flex-wrap: wrap;
+.tir__contener {
+  width: 100%;
+  background-color: #44c1f6;
+  padding: 50px 20px;
+  border-radius: 35px;
 }
-.tir__header
-{
+.tir__header {
   display: flex;
   gap: 50px;
+  padding: 90px 50px;
   align-items: center;
 }
-.tir__header input
-{
+.tir__header input {
   border-radius: 30px;
-  background: #44C1F6;
+  background: #44c1f6;
   height: 58px;
   width: 30%;
   border: none;
@@ -276,20 +243,18 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;   
-  outline: none; 
+  line-height: normal;
+  outline: none;
 }
-.tir__header input::placeholder
-{
+.tir__header input::placeholder {
   color: #132052;
 }
-.tir__header select
-{
+.tir__header select {
   width: 10%;
   height: 52px;
   border-radius: 10px;
-  background: #416CEA;
-  color: #FFF;
+  background: #416cea;
+  color: #fff;
   text-align: center;
   outline: none;
   border: none;
@@ -297,10 +262,9 @@
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 30px */
-  letter-spacing: -0.4px;    
+  letter-spacing: -0.4px;
 }
-.tir__header a button
-{
+.tir__header a button {
   width: 50px;
   height: 52px;
   font-size: 24px;
@@ -308,70 +272,88 @@
   border: none;
   font-weight: 800;
   border-radius: 5px;
-  background: #416CEA;  
+  background: #416cea;
 }
-.doc__cardtir
-{
-  width: 45%;
-  border-radius: 100px 0px;
-  background: #3563E9;
-  padding: 40px 60px;  
-  margin-bottom: 70px;
-}
-.doc__texttir
-{
+.doc__texttir {
   display: flex;
   gap: 15px;
   margin-bottom: 10px;
 }
-.doc__texttir h3
-{
-  color: var(--white);
-  font-size: 27px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;  
+.doc__cardtir button {
+  width: 112px;
+  padding: 4px 27px 7px 26px;
+  border-radius: 20px 0px;
+  background: #0135d0;
+  border: none;
+  color: white;
 }
-.doc__cardtir button
+.doc__cardtir .tirnomi h3 , .doc__cardtir .tirolingansana h3, .doc__cardtir .tirberilishikksana h3 , .doc__cardtir .tirberilgansana h3 , .doc__cardtir .tirqaytgansa h3 , .doc__cardtir .tirberilganmashina h3
 {
-  border-radius: 10px;
-  background: #44C1F6;
-  text-decoration: none;
-  border: none;  
-  display: block;
-  width: 213px;
-  height: 52px;
-  padding: 14px 33px 14px 32px;
-  justify-content: center;
-  align-items: center;
-  color: #FFF;
+  color: black;
+}
+.doc__cardtir .tirholati {
+  padding: 6px 5px;
+}
+.doc__cardtir .tirholati h3 {
+  background-color: #24ff01;
+}
+.tircontener__header,
+.doc__cardtir {
+  display: flex;
+}
+.tircontener__header div {
+  border-right: 1px solid black;
+  padding: 7px 0;
+}
+.tircontener__header .tirnomi {
+  width: 13%;
   text-align: center;
+  border-bottom: 1px solid black;
+}
+.tircontener__header .tirholati {
+  width: 10%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.tircontener__header .tirolingansana,
+.tircontener__header .tirberilishikksana,
+.tircontener__header .tirberilgansana,
+.tircontener__header .tirqaytgansa {
+  width: 11%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.tircontener__header .tirberilganmashina,
+.tircontener__header .ozgartirish {
+  width: 14.5%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.tircontener__header div h3 {
+  color: var(--white);
   font-size: 20px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 150%; /* 30px */
-  letter-spacing: -0.4px;    
+  font-weight: 400;
+  line-height: 150%;
 }
-.moshinaqoshish 
-{
+.moshinaqoshish {
   width: 100%;
   padding: 90px 85px;
-  background-color: #F5F6F8;
+  background-color: #f5f6f8;
 }
-.moshinaqoshish form
-{
+.moshinaqoshish form {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
 }
 .inputfile {
-	width: 600px;
-	height: 0.1px;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
-	z-index: -1;
+  width: 600px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
   border-radius: 20px;
 }
 .inputfile + label {
@@ -383,13 +365,12 @@
   display: inline-block;
 }
 .inputfile + label {
-	cursor: pointer; /* "hand" cursor */
+  cursor: pointer; /* "hand" cursor */
 }
-.moshinaqoshish form input
-{
+.moshinaqoshish form input {
   width: 470px;
   height: 65px;
-  background-color: #54A6FF;
+  background-color: #54a6ff;
   color: black;
   border: none;
   border-radius: 20px;
@@ -398,23 +379,20 @@
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 37.5px */
-  letter-spacing: -0.5px;  
+  letter-spacing: -0.5px;
   padding: 0 20px;
 }
-.moshinaqoshish form input::placeholder
-{
+.moshinaqoshish form input::placeholder {
   color: var(--white);
 }
-.tirqoshish
-{
+.tirqoshish {
   width: 100%;
   padding: 90px 85px;
-  background-color: #F5F6F8;
+  background-color: #f5f6f8;
   display: flex;
   justify-content: center;
 }
-.tirqoshish__card
-{
+.tirqoshish__card {
   width: 888px;
   background-color: var(--blue);
   border-radius: 100px 0;
@@ -423,27 +401,25 @@
   flex-direction: column;
   gap: 20px;
 }
-.savol
-{
+.savol {
   display: flex;
   gap: 20px;
 }
-.savol label
-{
-  color: #FFF;
+.savol label {
+  color: #fff;
   text-align: center;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 45px */
-  letter-spacing: -0.6px;  
+  letter-spacing: -0.6px;
 }
-.savol input , .savol select
-{
+.savol input,
+.savol select {
   width: 350px;
   height: 50px;
   border-radius: 10px;
-  background: #44C1F6;
+  background: #44c1f6;
   border: none;
   outline: none;
   outline: none;
@@ -451,11 +427,10 @@
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 37.5px */
-  letter-spacing: -0.5px;  
+  letter-spacing: -0.5px;
   padding: 0 20px;
 }
-.tirqoshish__card button
-{
+.tirqoshish__card button {
   width: 400px;
   height: 65px;
   border-radius: 20px;
@@ -464,7 +439,6 @@
   font-weight: 700;
   background-color: #72caf0;
 }
-.tirqoshish__card button:hover
-{
-  background: #44C1F6;
+.tirqoshish__card button:hover {
+  background: #44c1f6;
 }
