@@ -8,6 +8,7 @@ import Eror from "./Eror";
 import MoshinaQoshish from "./MoshinaQoshish";
 import TIRQoshish from "./TIRQoshish";
 import DazvolQoshish from "./DazvolQoshish";
+import Login from "./Login";
 
 const Navbar = () => {
   return (
@@ -40,6 +41,7 @@ const Navbar = () => {
         <Route path="/MoshinaQoshish" element={<MoshinaQoshish />} />
         <Route path="/TIRQoshish" element={<TIRQoshish />} />
         <Route path="/DazvolQoshish" element={<DazvolQoshish />} />
+        <Route path="/Login" element={<Login />}></Route>
         <Route path="*" element={<Eror />} />
       </Routes>
       <div className="footer">

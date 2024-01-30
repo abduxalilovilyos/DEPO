@@ -7,9 +7,7 @@ const TIRCard = ({
   tir_berilgansana,
   tir_holati,
   tir_berilganmoshina,
-  tir_qaytgansana,
-  tir_holatihaydovchi,
-  tir_holatihaydovchidan,
+  tir_qaytgansana
 }) => {
   return (
     <div className="doc__cardtir tircontener__header">
