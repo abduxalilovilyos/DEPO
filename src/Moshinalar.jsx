@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "react-router-dom"
-import MoshinaQoshish from "./MoshinaQoshish";
 import MoshinaCard from "./MoshinaCard";
 
 const Moshinalar = () => {

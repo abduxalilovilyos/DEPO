@@ -35,13 +35,13 @@ const Login = () => {
       <form>
         <h1>КИРИШ</h1>
         <div className="input__inner">
-        <label htmlFor="">Фирма номини киритинг</label>  
-      <input type="text" 
+        <label htmlFor="name">Фирма номини киритинг</label>  
+      <input type="text" id="name"
       onChange={(e)=>setName(e.target.value)} />
         </div>
         <div className="input__inner">
-        <label htmlFor="">Фирма номини киритинг</label>
-      <input type="password"
+        <label htmlFor="password">Паролни киритинг</label>
+      <input type="password" id="password"
       onChange={(e)=>setPassword(e.target.value)}  />
         </div>
       <button 

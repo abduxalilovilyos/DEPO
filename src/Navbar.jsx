@@ -10,6 +10,9 @@ import TIRQoshish from "./TIRQoshish";
 import DazvolQoshish from "./DazvolQoshish";
 import Login from "./Login";
 
+
+
+
 const Navbar = () => {
   return (
     <>
