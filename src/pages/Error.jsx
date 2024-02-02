@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Eror = () => {
+const Error = () => {
   return (
     <div>Eror</div>
   )
 }
 
-export default Eror
+export default Error

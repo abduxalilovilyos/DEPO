@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom"
-import MoshinaCard from "./MoshinaCard";
+import MoshinaCard from "../../components/MoshinaCard";
 
 const Moshinalar = () => {
 
@@ -19,7 +19,6 @@ const Moshinalar = () => {
           <option>MAN</option>
           <option>Mercedes Bens</option>
         </select>
-        {/* manashu yerdagi buttonni bosganda yangi sahifaga o'tish kerak */}
         <Link to="/MoshinaQoshish">
         <button>+</button>
         </Link>

@@ -1,5 +1,5 @@
 import React from 'react'
-import TextElement from './TextElement'
+import TextElement from '../components/TextElement'
 
 const BoshSahifa = () => {
   return (

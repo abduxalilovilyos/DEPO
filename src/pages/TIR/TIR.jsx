@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TIRCard from "./TIRCard";
+import TIRCard from "../../components/TIRCard";
 
 const TIR = () => {
   return (

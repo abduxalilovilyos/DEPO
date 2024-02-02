@@ -3,7 +3,8 @@ import {BrowserRouter} from 'react-router-dom'
 import ReactDOM from 'react-dom/client';
 import "./style.css"
 import "./responsive.css"
-import Navbar from './Navbar';
+import App from './App';
+ 
 
 
 
@@ -16,7 +17,7 @@ root.render(
 
   <div className='site'>
     <BrowserRouter>
-      <Navbar />
+      <App />
     </BrowserRouter>
 
 
