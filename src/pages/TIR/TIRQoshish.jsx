@@ -1,7 +1,11 @@
 import React from 'react'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 const TIRQoshish = () => {
   return (
+    <>
+    <Header />
     <div className='tirqoshish'>
         <div className="tirqoshish__card">
             <div className="savol">
@@ -48,6 +52,8 @@ const TIRQoshish = () => {
             <button>Tayyor</button>
         </div>
     </div>
+    <Footer />
+    </>
   )
 }
 

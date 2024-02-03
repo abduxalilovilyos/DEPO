@@ -28,6 +28,25 @@ const Login = () => {
     navigate("/");
   }
 
+  // har safar userData o'zgarganida, uni sessionStorage ga saqlayapman
+  useEffect(() => {
+    if (name || password) {
+      const userDataString = JSON.stringify(name,password);
+      sessionStorage.setItem("userdata", userDataString);
+    }
+  }, [name,password]);
+
+
+// har bitta refresh dan keyin, uni sessionStorage dan olib, qaytarib setUserData ga saqlab qo'yayapman
+  useEffect(() => {
+    const value = sessionStorage.getItem("userdata");
+
+    if (value) {
+      const parsedValue = value ? JSON.parse(value) : { name: "", password: "" };
+      setAccess(parsedValue);
+    }
+  }, []);
+
   return (
     <div className="login">
       <form>
