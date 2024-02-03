@@ -1,7 +1,11 @@
 import React from 'react'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 const DazvolQoshish = () => {
   return (
+    <>
+    <Header />
     <div className='tirqoshish'>
         <div className="tirqoshish__card">
             <div className="savol">
@@ -55,6 +59,8 @@ const DazvolQoshish = () => {
             <button>Tayyor</button>
         </div>
     </div>
+    <Footer />
+    </>
   )
 }
 

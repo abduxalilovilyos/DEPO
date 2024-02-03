@@ -1,8 +1,12 @@
 import React from 'react'
 import TextElement from '../components/TextElement'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const BoshSahifa = () => {
   return (
+    <>
+    <Header />
     <div className='boshsahifa' >
         <div className="tircard">
           <TextElement name='Jami TIR:' count='122' />
@@ -28,6 +32,8 @@ const BoshSahifa = () => {
           <TextElement name='Berilmagan:' count='122' />
         </div>
     </div>
+    <Footer />
+    </>
   )
 }
 

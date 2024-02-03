@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import TIRCard from "../../components/TIRCard";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const TIR = () => {
   return (
+    <>
+    <Header />
     <div className="tir">
       <div className="tir__header">
         <input type="text" placeholder="TIR raqamini kiriting" />
@@ -151,6 +155,8 @@ const TIR = () => {
         /> */}
       </div>
     </div>
+    <Footer />
+    </>
   );
 };
 

@@ -11,13 +11,17 @@ import DazvolQoshish from "./pages/dazvol/DazvolQoshish";
 import Login from "./pages/Login";
 import MyContext from "./MyContext";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [access, setAccess] = useState("");
+  const [cars, setCars] = useState(null);
+
+  
 
   return (
-    <MyContext.Provider value={{ access, setAccess }}>
-      {access && <Header />}
+    <MyContext.Provider value={{ access, setAccess, cars, setCars  }}>
+      {/* {access && <Header />} */}
       <Routes>
         <Route
           path="/login"
@@ -27,16 +31,15 @@ const App = () => {
           path="/"
           element={access ? <BoshSahifa /> : <Navigate to="/login" />}
         />
-        <Route path="/moshinalar" element={<Moshinalar />}>
-          <Route path="/moshinalar/info" element={<Moshinalar />} />
-          <Route path="/moshinalar/qoshish" element={<MoshinaQoshish />} />
-        </Route>
+        <Route path="/moshinalar" element={<Moshinalar />} />
+          <Route path="/moshinaqoshish" element={<MoshinaQoshish />} />
         <Route path="/tir" element={<TIR />} />
         <Route path="/dazvol" element={<Dazvol />} />
         <Route path="/tirqoshish" element={<TIRQoshish />} />
         <Route path="/dazvolqoshish" element={<DazvolQoshish />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      {access && <Footer />}
     </MyContext.Provider>
   );
 };

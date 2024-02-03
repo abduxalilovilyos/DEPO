@@ -12,7 +12,7 @@ const Header = () => {
           <Link to="/">Bosh sahifa</Link>
         </li>
         <li>
-          <Link to="/moshinalar/info">Moshinalar</Link>
+          <Link to="/moshinalar">Moshinalar</Link>
         </li>
         <li>
           <Link to="/tir">TIR</Link>
